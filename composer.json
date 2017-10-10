@@ -1,0 +1,21 @@
+{
+  "name": "pseudohex",
+  "description": "Laravel project",
+  "keywords": [],
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "php": ">=7.0.0",
+    "laravel/laravel": "5.5.*"
+  },
+  "authors": [
+    {
+      "name": "Dmytro Dzyuba",
+      "email": "joomsend@gmail.com",
+      "homepage": "https://www.linkedin.com/in/dmytro-dzyuba-b1988221/"
+    }
+  ],
+  "support": {
+    "email": "joomsend@gmail.com"
+  }
+}
