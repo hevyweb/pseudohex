@@ -2,7 +2,7 @@
 
 if (!defined('DS')){
     /**
-     * @const string DIRECTORY_SEPARATOR - slash or forward slash. Very important since initially we were using
+     * @const DIRECTORY_SEPARATOR slash or forward slash. Very important since initially we were using
      * windows server.
      */
     define('DS', DIRECTORY_SEPARATOR);

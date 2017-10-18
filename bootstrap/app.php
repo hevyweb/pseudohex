@@ -11,6 +11,13 @@
 |
 */
 
+/**
+ * This config contains constants that should not be included to the repository, but still very important.
+ * There should be duplicates of those constant in the defaults.php. They contain dummy data.
+ */
+require_once __DIR__ . '/../../config.php';
+require_once __DIR__ . '/../config/defaults.php';
+
 $app = new Illuminate\Foundation\Application(
     realpath(__DIR__.'/../')
 );
