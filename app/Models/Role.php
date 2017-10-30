@@ -1,22 +1,16 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
 use Zizaco\Entrust\EntrustRole;
 
+/**
+ * @var int $id
+ * @var string $name
+ * @var string $display_name
+ * @var string $description
+ */
 class Role extends EntrustRole
 {
-    /**
-     * The table associated with the model.
-     *
-     * @var string
-     */
-    protected $table = 'roles';
 
-    /**
-     * Indicates if the model should be timestamped.
-     *
-     * @var bool
-     */
-    public $timestamps = false;
 }

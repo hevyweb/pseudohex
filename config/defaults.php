@@ -27,3 +27,25 @@ if (!defined('MYSQL_USER')){
 if (!defined('MYSQL_PASSWORD')){
     define('MYSQL_PASSWORD', '');
 }
+
+if (!defined('ADMIN_NAME')){
+    /**
+     * @const ADMIN_NAME login for the admin account
+     */
+    define('ADMIN_NAME', 'admin');
+}
+
+if (!defined('ADMIN_EMAIL')){
+    /**
+     * @const ADMIN_EMAIL email for the admin account
+     */
+    define('ADMIN_EMAIL', 'admin@gmail.com');
+}
+
+if (!defined('ADMIN_PASSWORD')){
+    /**
+     * @const ADMIN_PASSWORD password for the admin account
+     */
+    define('ADMIN_PASSWORD', 'admin');
+}
+
